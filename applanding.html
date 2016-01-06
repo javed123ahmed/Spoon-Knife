@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>App Landing</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <style>
+        #topContainer{
+        	background-image:url("background.jpg");
+        	height:400px;
+        	width:100%;
+        	background-size:cover;
+        }
+
+        #topRow{
+        	margin-top:100px;
+        	text-align: center;
+
+        }
+        </style>
+    </head>
+    <body>
+       <div class="navbar navbar-default navbar-fixed-top">
+       	
+       	    <div class="container">
+       	    	<div class="navbar-header">
+       	    		<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+       	    		    <span class="icon-bar"></span>
+       	    		    <span class="icon-bar"></span>
+       	    		    <span class="icon-bar"></span>
+       	    		</button>
+       	    		<a class="navbar-brand">My App</a>
+       	    	</div>
+                <div class="collapse navbar-collapse">
+            	
+                    <ul class="nav navbar-nav">
+
+                        <li class="active"><a href="#home">Home</a><li>
+                        <li><a href="#about">about</a><li>
+                        <li><a href="#download">Download The App</a><li>
+                    </ul>
+
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" class="form-control" />
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" placeholder="Password" class="form-control" />
+                        </div>
+                        <button type="submit" class="btn btn-success">Log In</button>
+                    </form>
+
+
+                </div>
+       	    </div>
+       </div>
+       <div class="container" id="topContainer">
+
+           <div class="row">
+       	
+       	       <div class="col-md-6 col-md-offset-3" id="topRow">
+       		     
+       		       <h1>My Awsome App</h1>
+       		       <p class="lead">Fantastic App</p>
+       		       <p>Some more information</p>
+
+       	       </div>
+           </div>
+       	
+       </div>
+
+       <div id="container">
+       	
+       	   <div id="row">
+       	       <div class="col-md-4">
+       		
+       		   <h2><span class="glyphicon glyphicon-music"></span>Header</h2>
+       		   <p>Great App u will have a lot of fun.Try this out and u will find out</p>
+       		   <button class="btn btn-success">Sign Up</button>
+
+       		   </div>
+
+       	   </div>
+       </div>
+
+       <div id="container">
+       	
+       	   <div id="row">
+       	       <div class="col-md-4">
+       		
+       		   <h2><span class="glyphicon glyphicon-pencil"></span>Header</h2>
+       		   <p>Great App u will have a lot of fun.Try this out and u will find out</p>
+       		   <button class="btn btn-success">Sign Up</button>
+
+       		   </div>
+
+       	   </div>
+       </div>
+
+       <div id="container">
+       	
+       	   <div id="row">
+       	       <div class="col-md-4">
+       		
+       		   <h2><span class="glyphicon glyphicon-off"></span>Header</h2>
+       		   <p>Great App u will have a lot of fun.Try this out and u will find out</p>
+       		   <button class="btn btn-success">Sign Up</button>
+
+       		   </div>
+
+       	   </div>
+       </div>
+
+
+
+       <script>
+           $("#topContainer").css("height",$(window).height());
+       </script>
+    </body>
+</html>
